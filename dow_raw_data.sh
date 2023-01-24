@@ -1,0 +1,2 @@
+#!/bin/bash
+curl -H "Authorization: Basic ZS5wbG90bmlrb3Y6dWNDMjdZQVRBQjNSTWlmRg" --request POST -H "Content-Type: application/json" https://helpdesk.dom.gosuslugi.ru/rest/api/2/search --data '{"jql": "project = SUPP AND issuetype != Sub-task AND status changed during (\"2022-12-01 00:00\", \"2023-01-01 00:00\") to Закрыто  AND filter = без_метки_тест ORDER BY created ASC", "maxResults":"20000", "fields":["id","key", "created"], "expand":["changelog"]}' | jq . >> jira_raw.json;
