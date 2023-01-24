@@ -39,7 +39,16 @@ holy(dd,iswrk) AS (
 		('2020-01-03'::date,false),	('2020-01-04'::date,false), ('2020-01-05'::date,false),	('2020-01-06'::date,false),
 		('2020-01-07'::date,false),	('2020-01-08'::date,false), ('2020-02-24'::date,false),	('2020-03-09'::date,false),
 		('2020-05-01'::date,false),	('2020-05-04'::date,false), ('2020-05-05'::date,false),	('2020-05-08'::date,false),
-		('2020-05-11'::date,false),	('2020-06-12'::date,false), ('2020-10-04'::date,false)
+		('2020-05-11'::date,false),	('2020-06-12'::date,false), ('2020-10-04'::date,false), ('2022-11-04'::date,false),
+		('2022-06-13'::date,false), ('2022-05-10'::date,false), ('2022-05-09'::date,false), ('2022-05-03'::date,false),
+		('2022-05-02'::date,false), ('2022-05-01'::date,false), ('2022-03-08'::date,false), ('2022-03-07'::date,false),
+		('2022-03-05'::date,true), 	('2022-02-23'::date,false), ('2022-01-09'::date,false), ('2022-01-08'::date,false),
+		('2022-01-07'::date,false), ('2022-01-06'::date,false), ('2022-01-05'::date,false), ('2022-01-04'::date,false),
+		('2022-01-03'::date,false), ('2022-01-02'::date,false), ('2022-01-01'::date,false), ('2023-11-06'::date,false),
+		('2023-06-12'::date,false), ('2023-05-09'::date,false), ('2023-05-08'::date,false),	('2023-05-01'::date,false),
+		('2023-03-08'::date,false),	('2023-02-24'::date,false), ('2023-02-23'::date,false),	('2023-01-08'::date,false),
+		('2023-01-07'::date,false),	('2023-01-06'::date,false), ('2023-01-05'::date,false),	('2023-01-04'::date,false),
+		('2023-01-03'::date,false),	('2023-01-02'::date,false), ('2023-01-01'::date,false)
 		),
 status_tbl AS (
 SELECT  
