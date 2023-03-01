@@ -87,4 +87,4 @@ SELECT id, issue_key, start_time,
 FROM status_tbl
 )
 SELECT id, issue_key, to_char(start_time,'YYYY-MM-DD HH24:mi:ss') AS start_time, status, to_char(stop_time,'YYYY-MM-DD HH24:mi:ss') AS stop_time, work_time, return_check, CLOSE_date  FROM full_close;
-COPY public.full_result TO 'c:\pgsql\result_time_report.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ';', ENCODING 'UTF8');
+COPY public.full_result TO 'c:\pgsql\result_time_report.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ';', ENCODING 'WIN1251');
