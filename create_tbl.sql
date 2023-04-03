@@ -14,4 +14,3 @@ CREATE TABLE public.creates (
 
 COPY public.raw_report FROM 'c:\pgsql\status.csv' WITH (format CSV,ENCODING UTF8);
 COPY public.creates FROM 'c:\pgsql\created.csv' WITH (format CSV,ENCODING UTF8);
-ALTER TABLE raw_report  ADD COLUMN id BIGSERIAL PRIMARY KEY;
